@@ -1,0 +1,21 @@
+.pregraphtitel{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.pregraphtitel span{
+    border-bottom: 20px solid green;
+    border-radius: 0px 0px 25px 25px;
+}
+.Sohel a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.pa{
+    text-align: center;
+    background-color: aquamarine;
+}
+.qa{
+    text-align: center;
+    background-color: chocolate;
+}

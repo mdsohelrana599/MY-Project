@@ -1,0 +1,24 @@
+h1{
+    color: rebeccapurple;
+    background-color: aquamarine;
+    border: 2px solid orange; 
+}
+
+h2{
+    color: rgb(red, rgb(52, 225, 52), blue);
+}
+h3{
+    color: tomato;
+}
+h4{
+    color: rgb(255, 0, 0);
+}
+h5{
+    color: #189b0e;
+}
+body{
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}

@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    color: purple;
+    margin-top: auto;
+}
+img{
+    height: 250px;
+    width: 500px;
+    margin-top: 1px;
+}

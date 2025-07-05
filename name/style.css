@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sohel{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(20, 19, 19, 0.936);
+}
+.sohel p{
+    font-size: 60px;
+    color: transparent;
+    font-weight: 900;
+    -webkit-text-stroke: 3px rgb(129, 58, 129) ;
+}

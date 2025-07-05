@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dhurjati&family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* -----header sart----- */
+header{
+    width: 100%;
+   
+}
+.header_top{
+    background-color: rgba(16, 214, 214, 0.769);
+    color: rgb(11, 10, 9);
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    height: 35px;
+}
+.header_top h4{
+    padding-top: 5px;
+    font-size: 18px;
+}
+.main_header{
+    height: 90px;
+    background-color: azure;
+    display: flex;
+    justify-content: space-around;
+}
+.main_header_left h1{
+    font-size: 38px;
+    padding-top: 20px;
+    color: rgba(24, 23, 23, 0.932);
+    font-family:  "Dancing Script", serif;
+}
+.main_header_left span{
+    font-size: 50px;
+    color: rgba(16, 214, 214, 0.769);
+}
+.main_header_middle ul{
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+.main_header_middle ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    color:  rgba(24, 23, 23, 0.932);
+}
+.main_header_middle ul li a:hover{
+    color: rgba(16, 214, 214, 0.769);
+    transition: 0.3s;
+}
+.main_header_right .icons{
+    padding-top: 30px;
+    
+}
+.main_header_right .icons a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    color: black;
+}
+.main_header_right .icons a i{
+    background-color: rgba(16, 214, 214, 0.769);
+    color: white;
+    padding: 17px;
+    border-radius: 50px;
+}
+.main_header_right .icons a i:hover{
+    padding: 16px;
+    border: 1px solid  rgba(16, 214, 214, 0.769);
+    background-color: white;
+    color:  rgba(16, 214, 214, 0.769);
+}

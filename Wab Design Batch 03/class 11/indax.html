@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Boll</title>
+    <style>
+
+        body{
+            background-color: #d4d4d4;
+          
+        }
+        .boll{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-top: 250px;
+            border-radius: 50%;
+            position: relative;
+            /* animation-name: sohel;
+            animation-duration: 5s;
+            animation-timing-function: ease;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+            animation-play-state: running; */
+            animation: sohel 5s ease 1s infinite alternate both ;
+
+        }
+        @keyframes sohel{
+            0%{
+                transform: translateX(0) translateY(0)
+            }
+            25%{
+                transform: translateX(200px) translateY(-150px);
+                background-color: aqua;
+            }
+            50%{ 
+                transform: translateX(400px) translateY(0px);
+                background-color: blueviolet;
+            }
+            75%{
+                transform: translateX(600px) translateY(-150px);
+                background-color: greenyellow;
+            }
+            100%{
+                transform: translateX(800px) translateY(0px);
+                background-color: gold;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="boll"></div>
+</body>
+</html>

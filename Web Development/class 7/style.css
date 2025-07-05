@@ -1,0 +1,23 @@
+h1{
+    color: rgb(13, 30, 167);
+   /*text-decoration-line: line-through;
+    text-decoration-color: brown;
+    text-decoration-style: double;*/
+    text-transform: capitalize;
+    text-shadow: 2px 2px red;
+
+
+}
+p{
+    color: green;
+  /*  text-align: center;
+    direction: rtl
+    text-indent: 30px;
+    letter-spacing: normal;
+    line-height: 1.5;
+    word-spacing: normal;;*/
+    font-weight: bold;
+    font-size: 30px;
+    font-family: monospace;
+ 
+}

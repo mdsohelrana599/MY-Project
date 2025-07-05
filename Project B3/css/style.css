@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Dongle&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* header start */
+header{
+    width: 100%;
+    font-family: 'Kanit';
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header_top{
+    background-color: black;
+    color: #ff0000;
+    text-align: center;
+    height: 37px;
+}
+
+.header_top h4{
+    padding-top: 6px;
+    font-size: 15px;
+}
+
+.main_header{
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_header .main_header_left h1{
+    font-size: 30px;
+    padding-top: 20px;
+    color: rgb(41, 41, 41);
+}
+.main_header .main_header_left h1 span{
+    color: red;
+}
+
+.main_header_middle ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.main_header_middle ul li a{
+    font-size: 16px;
+    color: rgb(41, 41, 41);
+    font-weight: 500;
+
+}
+
+.main_header_middle ul li a:hover{
+    color: red;
+    transition: 0.3s;
+}
+.main_header_right .icons{
+    padding-top: 20px;
+}
+
+.main_header_right .icons a{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(41, 41, 41);
+    margin: 5px;
+   
+   
+}
+.main_header_right .icons a i{
+    background-color: red;
+    color: white;
+    padding: 18px;
+    border-radius: 50px;
+}
+.main_header_right .icons a i:hover{
+    padding: 16px;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+}
+
+/* main hero start */
+
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+
+}
+.hero_left{
+    width: 50%;
+    background-image: url(../images/hero-left-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.hero_left_inside{
+    margin-left: 20%;
+}
+.top_p{
+    font-size: 28px;
+    color: red;
+    font-family:'Dhurjati' ;
+}
+.hero_heading{
+    font-size: 60px;
+}
+.hero_heading span{
+    color: red;
+}
+.bottom_p{
+    font-size: 18px;
+    font-family: 'Kanit';
+    margin-top: 10px;
+}
+.hero_left button{
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 18px 55px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.hero_left button:hover{
+    background-color: #dc2929;
+    color: white;
+}
+
+.hero_right{
+    width: 50%;
+    background-image: url(../images/hero-right-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+/* support start */
+.support{
+    width: 100%;
+    height: 250px;
+    color: white;
+    background-color: red;
+    background-image: url(../images/partner-left-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.support_icon{
+    display: flex;
+}
+.support_icon i{
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 71px;
+    color: #ffffff;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.31);
+    
+}
+.support_icon h1{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+/* discount section */
+
+.discount_card{
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+    position: relative;
+}
+.latest_discount{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Kanit';
+    color: #ff0000;
+    margin-top: 10px;
+}
+.discount_card_main{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5%;
+    flex-wrap: wrap;
+}
+
+.dis_card{
+    display: flex; 
+    background-color: #ffffff; 
+    cursor: pointer; 
+    border: 2px solid azure; 
+    width: 550px; 
+    height: 300px;
+
+}
+.dis_left{
+    align-items: center; 
+    margin-top: 9%; 
+    margin-left: 40px;  
+    width: 50%;
+}
+.dis_left p{
+    font-size: 20px;
+    color: red;
+}
+.dis_left h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.dis_left button{
+    margin-top: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.dis_right{
+    width: 50%;
+}
+.dis_right img{
+    padding-top: 50px;
+    width: 200px;
+}
+
